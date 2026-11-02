@@ -453,6 +453,13 @@ menu "Device Support"
 		help
 		  Say Y if you want to include support for Xiaomi Redmi Note 8/8T
 
+	config XIAOMI_MERLINX
+		bool "Support for Redmi Note 9"
+		default n
+		depends on MT6768
+		help
+		  Say Y if you want to include support for Redmi Note 9
+
 	config XIAOMI_MOON
 		bool "Support for Xiaomi Moon devices"
 		default n
